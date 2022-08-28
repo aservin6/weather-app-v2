@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('../public/background-gradient-mobile.svg');
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 480px) {
+    body {
+        background-image: url('../public/background-gradient.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right 0 top 0;
+    }
+}
